@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/andersac88/Friend_Finder/issues"
   },
-  "homepage": "https://github.com/andersac88/Friend_Finder#readme"
+  "homepage": "https://github.com/andersac88/Friend_Finder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
