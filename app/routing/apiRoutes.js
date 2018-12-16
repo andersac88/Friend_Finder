@@ -7,7 +7,6 @@ module.exports = app => {
   });
 
   app.post("/api/friends", (req, res) => {
-    friendData.push(req.body);
     let userArray = req.body.scores;
     let numberArray = userArray.map(a => +a);
     for (i = 0; i < friendData.length; i++) {
@@ -18,5 +17,6 @@ module.exports = app => {
     }
     let picker = differenceArray.indexOf(Math.min(...differenceArray));
     res.json(friendData[picker]);
+    friendData.push(req.body);
   });
 };
