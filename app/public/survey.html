@@ -245,40 +245,42 @@
       </div>
     </div>
 
-<!-- Modal Success -->
-<div
-class="modal fade"
-id="successModal"
-tabindex="-1"
-role="dialog"
-aria-labelledby="exampleModalLabel"
-aria-hidden="true"
->
-<div class="modal-dialog" role="document">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title" id="exampleModalLabel">Your New Best Friend:</h5>
-      <button
-        type="button"
-        class="close"
-        data-dismiss="modal"
-        aria-label="Close"
-      >
-        <span aria-hidden="true">&times;</span>
-      </button>
+    <!-- Modal Success -->
+    <div
+      class="modal fade"
+      id="successModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Your New Best Friend:
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1 class="name"></h1>
+            <img class="picture" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="modal-body">
-      <h1 class="name"></h1>
-      <img class="picture">
-    </div>
-    <div class="modal-footer">
-      <button type="button" class="btn btn-success" data-dismiss="modal">
-        Close
-      </button>
-    </div>
-  </div>
-</div>
-</div>
 
     <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
@@ -298,8 +300,7 @@ aria-hidden="true"
                     event.preventDefault();
                     event.stopPropagation();
                     $("#myModal").modal("show");
-                  } 
-                  else {
+                  } else {
                     event.preventDefault();
                     let newUser = {
                       name: $("#inputName")

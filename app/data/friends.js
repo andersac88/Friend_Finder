@@ -24,11 +24,11 @@ let friendArray = [
     scores: ["4", "1", "3", "5", "2", "3", "1", "4", "5", "1"]
   },
   {
-        name: "Nicole",
-        photo:
-          "https://images.pexels.com/photos/1037915/pexels-photo-1037915.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300",
-        scores: ["1", "1", "3", "3", "2", "2", "1", "4", "2", "4"]
-      },
+    name: "Nicole",
+    photo:
+      "https://images.pexels.com/photos/1037915/pexels-photo-1037915.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300",
+    scores: ["1", "1", "3", "3", "2", "2", "1", "4", "2", "4"]
+  },
   {
     name: "Jordan",
     photo:
